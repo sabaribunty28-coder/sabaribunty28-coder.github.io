@@ -1,3 +1,58 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Jekyll Configuration File for Custom Theming
+
+# Select a Jekyll theme (can be a built-in or remote theme)
+theme: jekyll-theme-cayman
+
+# Website title and description
+title: My Awesome Portfolio
+description: Welcome to my personal website! Explore my projects, blogs, and more.
+
+# Personalization
+author:
+  name: Sabari Bunty
+  email: sabaribunty28-coder@example.com
+  url: https://github.com/sabaribunty28-coder
+
+# Social links (add more as needed)
+social_links:
+  github: https://github.com/sabaribunty28-coder
+  linkedin: https://linkedin.com/in/sabaribunty28-coder
+
+# Navigation links (display in header or sidebar)
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+
+# Theme customization (these keys may vary by theme)
+show_downloads: false
+logo: /assets/img/logo.png
+favicon: /assets/img/favicon.ico
+
+# Custom colors (only for themes that support custom colors)
+# Remove or edit these if your theme doesn't support them
+colors:
+  background: "#ffffff"
+  header: "#0366d6"
+  text: "#24292e"
+  accent: "#f9826c"
+
+# Plugins (optional)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Other options
+markdown: kramdown
+permalink: pretty
+
+# Exclude these files and folders from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
